@@ -1,0 +1,16 @@
+{
+  "name": "playwright-bdd-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc --incremental -p src/tsconfig.json",
+    "test": "playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "1.33.0",
+    "typescript": "5.0.4"
+  }
+}
